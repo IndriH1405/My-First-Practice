@@ -1,0 +1,94 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container-navbar {
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+}
+
+.a-navbar {
+    display: flex;
+    align-items: flex-start;
+    flex-direction:row;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(78, 78, 130);
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.a-navbar:hover {
+    background-color: rgb(249, 224, 252);
+    transition: .4s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 10px;
+}
+
+.a-navbar {
+    color: rgb(78, 78, 130);
+    text-decoration: none;
+}
+
+.container-content {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(87, 118, 138);
+    color: white;
+    font-size: large;
+    height: 80vh;
+}
+
+.form-belajar {
+    padding: 100px 30px 30px 100px;
+}
+
+.form-belajar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-belajar-group label {
+    width: 110px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.form-group .colon {
+    display: inline-block;
+    width: 10px;
+    text-align: center;
+}
+
+.table-practice {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+
+.tr, th, td {
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.container-footer {
+    background-color: rgb(24, 24, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.h3-footer {
+    padding: 10px;
+    color: rgb(181, 159, 201);
+}
